@@ -1,4 +1,4 @@
-module github.com/passbase/passbase-go
+module github.com/zleague/passbase-go
 
 go 1.15
 
