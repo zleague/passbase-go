@@ -9,6 +9,6 @@
 package passbase
 
 type IdentityResource struct {
-	Datapoints *DataPoints `json:"datapoints,omitempty"`
+	Datapoints map[string]interface{} `json:"datapoints,omitempty"`
 	Type_ string `json:"type,omitempty"`
 }
